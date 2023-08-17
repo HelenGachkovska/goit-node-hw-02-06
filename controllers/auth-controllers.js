@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import gravatar from "gravatar";
 import path from "path";
 import fs from "fs/promises";
+import Jimp from "jimp";
 import User from "../models/user.js";
 import { ctrlWrapper } from "../decorators/index.js";
 import HttpError from "../helpers/index.js";
